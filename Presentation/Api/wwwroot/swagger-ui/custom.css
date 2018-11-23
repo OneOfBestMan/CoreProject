@@ -1,0 +1,280 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+@viewport {
+    width: device-width;
+    zoom: 1;
+    user-zoom: 1
+}
+
+body {
+    background-color: #F5F5F5
+}
+
+.swagger-ui .topbar, .swagger-section #header {
+    background-color: #004684
+}
+
+.swagger-section #message-bar {
+    min-height: 10px !important;
+    font-size: 12px
+}
+
+.swagger-section .swagger-ui-wrap .info_title {
+    font-size: 36px;
+    margin: 0;
+    color: #3b4151;
+    padding-bottom: 0px;
+    font-family: 'Exo', sans-serif
+}
+
+    .swagger-section .swagger-ui-wrap .info_title i {
+        background: #004684;
+        border-radius: 20px;
+        color: #fff;
+        font-size: 13px;
+        width: 40px;
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+        margin-top: 5px;
+        position: absolute;
+        margin-left: 10px;
+        font-weight: lighter
+    }
+
+.swagger-section .swagger-ui-wrap p {
+    font-size: 14px;
+    font-family: Open Sans, sans-serif;
+    color: #3b4151
+}
+
+
+.swagger-section #swagger-ui-container {
+    background: #fff;
+    padding: 2.5%;
+    width: 90%;
+    border-radius: 10px;
+    min-width: inherit;
+    max-width: inherit
+}
+
+.swagger-section .swagger-ui-wrap .info_name {
+    font-size: 12px !important;
+    margin: 0;
+    font-weight: normal !important;
+    font-family: Open Sans, sans-serif;
+    color: #3b4151 !important
+}
+
+.swagger-section .swagger-ui-wrap .info_description {
+    padding-bottom: 0px
+}
+
+.swagger-section .swagger-ui-wrap a {
+    color: #EEB900;
+    text-decoration: none
+}
+
+.swagger-section .swagger-ui-wrap .info_email {
+    font-size: 12px;
+    padding-bottom: 0px
+}
+
+
+.swagger-section .info div:nth-child(3) {
+    font-size: 12px;
+    font-weight: 700;
+    font-family: Open Sans, sans-serif;
+    color: #1b66b0
+}
+
+
+.swagger-section #api_selector input {
+    border-radius: 5px;
+    border: 1px solid #EEB900;
+    font-size: 12px;
+    padding: 3px;
+    display: none
+}
+
+.swagger-section #api_selector .input #auth_container {
+    display: none
+}
+
+.swagger-section .swagger-ui-wrap {
+    width: 100%;
+    max-width: inherit;
+    min-width: inherit
+}
+
+.swagger-section #header {
+    padding: 10px 2.5% 10px 2.5%;
+    width: 95%;
+    max-width: 95% !important;
+    min-width: 95% !important;
+    height: 40px !important
+}
+
+.swagger-section #api_selector .input {
+    margin: 0
+}
+
+
+.swagger-section #api_selector select {
+    min-width: 50px;
+    background: #fff;
+    color: black;
+    height: 25px;
+    margin-top: 7.5px
+}
+
+
+
+.swagger-section .swagger-ui-wrap ul#resources li.resource div.heading {
+    padding: 5px;
+    background: #F5F5F5
+}
+
+    .swagger-section .swagger-ui-wrap ul#resources li.resource div.heading h2 a {
+        text-decoration: none
+    }
+
+
+.swagger-section .swagger-ui-wrap ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation.post div.heading h3 span.http_method a {
+    background: #49cc90
+}
+
+.swagger-section .swagger-ui-wrap ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation.get div.heading h3 span.http_method a {
+    background: #61affe
+}
+
+.swagger-section .swagger-ui-wrap ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation.delete div.heading h3 span.http_method a {
+    background: #f93e3e
+}
+
+.swagger-section .swagger-ui-wrap ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation.put div.heading h3 span.http_method a {
+    background: #fca130
+}
+
+.swagger-section .swagger-ui-wrap ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation.patch div.heading h3 span.http_method a {
+    background: #d3045d
+}
+
+.swagger-section .swagger-ui-wrap ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation div.heading h3 span.http_method a {
+    font-size: 14px;
+    font-weight: 700;
+    min-width: 80px;
+    padding: 6px 15px;
+    text-align: center;
+    border-radius: 3px;
+    background: #000;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+    color: #fff;
+    line-height: 20px;
+    margin: 5px
+}
+
+
+
+.swagger-section .swagger-ui-wrap ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation {
+    margin-top: 5px
+}
+
+    .swagger-section .swagger-ui-wrap ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation.post div.heading {
+        border-radius: 4px;
+        -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .19);
+        box-shadow: 0 0 3px rgba(0, 0, 0, .19);
+        border-color: #49cc90
+    }
+
+    .swagger-section .swagger-ui-wrap ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation.get div.heading {
+        border-radius: 4px;
+        -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .19);
+        box-shadow: 0 0 3px rgba(0, 0, 0, .19);
+        border-color: #61affe
+    }
+
+    .swagger-section .swagger-ui-wrap ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation.delete div.heading {
+        border-radius: 4px;
+        -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .19);
+        box-shadow: 0 0 3px rgba(0, 0, 0, .19);
+        border-color: #f93e3e
+    }
+
+    .swagger-section .swagger-ui-wrap ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation.put div.heading {
+        border-radius: 4px;
+        -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .19);
+        box-shadow: 0 0 3px rgba(0, 0, 0, .19);
+        border-color: #fca130
+    }
+
+    .swagger-section .swagger-ui-wrap ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation div.heading h3 span.path a {
+        font-size: 14px;
+        font-family: Source Code Pro, monospace;
+        font-weight: 700;
+        color: #3b4151
+    }
+
+    .swagger-section .swagger-ui-wrap ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation div.heading ul.options li a .markdown p {
+        font-size: 12px;
+        font-family: Open Sans, sans-serif;
+        color: #3b4151 !Important
+    }
+
+
+    .swagger-section .swagger-ui-wrap ul#resources li.resource ul.endpoints li.endpoint ul.operations li.operation div.heading ul.options {
+        margin-top: 12.5px
+    }
+
+.swagger-ui .topbar a img {
+    content: url('https://hsto.org/getpro/habr/post_images/cb4/bec/1cd/cb4bec1cde8e695b2b449a4dfb179668.png');
+    width: 40px;
+    height: initial;
+    pointer-events: none;
+    cursor: default
+}
+
+.swagger-ui .topbar a span {
+    /*display: none;*/
+    font-size: 0.1px
+}
+
+    .swagger-ui .topbar a span:after {
+        content: "ASP.NET Core API Documentation";
+        font-size: 20px
+    }
+
+.scheme-container {
+    display: none !important
+}
+
+.swagger-ui .topbar .download-url-wrapper {
+    display: none !important
+}
+
+.swagger-section .swagger-ui-wrap .response-messages thead tr th:first-child:after {
+    content: " Response Code";
+    font-size: 13px;
+    margin-left: -7px
+}
+
+.swagger-section .swagger-ui-wrap .response-messages thead tr th:first-child {
+    font-size: 0px
+}
+
+
+
+
+.swagger-ui .info {
+    margin: 10px 0
+}
+
+
+    .swagger-ui .info hgroup.main a {
+        display: none
+    }
+
+
+    .swagger-ui .info hgroup.main {
+        margin: 0 0 -10px
+    }
