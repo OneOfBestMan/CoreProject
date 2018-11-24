@@ -105,11 +105,8 @@ namespace Api
                 options.InjectStylesheet("/swagger-ui/custom.css");
             });
 
-            app.UseCors(builder => builder.WithOrigins("http://*.netwa.app").AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
-            app.UseCors(builder => builder.WithOrigins("https://*.netwa.app").AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
-
-            app.UseCors(builder => builder.WithOrigins("http://*.whatsdog.net").AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
-            app.UseCors(builder => builder.WithOrigins("https://*.whatsdog.net").AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
+            app.UseCors(builder => builder.WithOrigins("http://*.domain.com").AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
+            app.UseCors(builder => builder.WithOrigins("https://*.domain.com").AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 
             app.UseStaticFiles();
             app.UseMvc();
