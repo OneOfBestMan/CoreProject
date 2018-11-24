@@ -7982,11 +7982,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ersinayaz/Projects/WaTracker/Libraries/Model/Model.csproj",
+      "projectUniqueName": "/Users/ersinayaz/CoreProject/Libraries/Model/Model.csproj",
       "projectName": "Model",
-      "projectPath": "/Users/ersinayaz/Projects/WaTracker/Libraries/Model/Model.csproj",
+      "projectPath": "/Users/ersinayaz/CoreProject/Libraries/Model/Model.csproj",
       "packagesPath": "/Users/ersinayaz/.nuget/packages/",
-      "outputPath": "/Users/ersinayaz/Projects/WaTracker/Libraries/Model/obj",
+      "outputPath": "/Users/ersinayaz/CoreProject/Libraries/Model/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -8003,8 +8003,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "/Users/ersinayaz/Projects/WaTracker/Libraries/Packages/Packages.csproj": {
-              "projectPath": "/Users/ersinayaz/Projects/WaTracker/Libraries/Packages/Packages.csproj"
+            "/Users/ersinayaz/CoreProject/Libraries/Packages/Packages.csproj": {
+              "projectPath": "/Users/ersinayaz/CoreProject/Libraries/Packages/Packages.csproj"
             }
           }
         }

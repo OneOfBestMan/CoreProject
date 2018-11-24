@@ -12572,11 +12572,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ersinayaz/Projects/WaTracker/Presentation/Api/Api.csproj",
+      "projectUniqueName": "/Users/ersinayaz/CoreProject/Presentation/Api/Api.csproj",
       "projectName": "Api",
-      "projectPath": "/Users/ersinayaz/Projects/WaTracker/Presentation/Api/Api.csproj",
+      "projectPath": "/Users/ersinayaz/CoreProject/Presentation/Api/Api.csproj",
       "packagesPath": "/Users/ersinayaz/.nuget/packages/",
-      "outputPath": "/Users/ersinayaz/Projects/WaTracker/Presentation/Api/obj",
+      "outputPath": "/Users/ersinayaz/CoreProject/Presentation/Api/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -12593,14 +12593,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "/Users/ersinayaz/Projects/WaTracker/Libraries/Core/Core.csproj": {
-              "projectPath": "/Users/ersinayaz/Projects/WaTracker/Libraries/Core/Core.csproj"
+            "/Users/ersinayaz/CoreProject/Libraries/Core/Core.csproj": {
+              "projectPath": "/Users/ersinayaz/CoreProject/Libraries/Core/Core.csproj"
             },
-            "/Users/ersinayaz/Projects/WaTracker/Libraries/Packages/Packages.csproj": {
-              "projectPath": "/Users/ersinayaz/Projects/WaTracker/Libraries/Packages/Packages.csproj"
+            "/Users/ersinayaz/CoreProject/Libraries/Packages/Packages.csproj": {
+              "projectPath": "/Users/ersinayaz/CoreProject/Libraries/Packages/Packages.csproj"
             },
-            "/Users/ersinayaz/Projects/WaTracker/Libraries/Service/Service.csproj": {
-              "projectPath": "/Users/ersinayaz/Projects/WaTracker/Libraries/Service/Service.csproj"
+            "/Users/ersinayaz/CoreProject/Libraries/Service/Service.csproj": {
+              "projectPath": "/Users/ersinayaz/CoreProject/Libraries/Service/Service.csproj"
             }
           }
         }

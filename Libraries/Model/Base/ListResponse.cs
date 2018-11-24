@@ -21,5 +21,10 @@ namespace Model
         /// Ekstra paylaşılan data.
         /// </summary>
         public dynamic ExternalData { get; set; }
+
+        /// <summary>
+        /// Friendly Error Message
+        /// </summary>
+        public string FriendlyErrorMessage { get; set; } = null;
     }
 }

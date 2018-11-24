@@ -28,6 +28,12 @@ namespace Model
         public dynamic ExternalData { get; set; }
 
         /// <summary>
+        /// Friendly Error Message
+        /// </summary>
+        [DataMember]
+        public string FriendlyErrorMessage { get; set; } = null;
+
+        /// <summary>
         /// Initializes a new instance of the <see cref="T:Model.Response`1"/> class.
         /// </summary>
         public Response() { }

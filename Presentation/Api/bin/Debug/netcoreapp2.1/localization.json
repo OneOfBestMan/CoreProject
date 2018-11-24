@@ -3,6 +3,8 @@
         "en_homepage": "Home Page",
         "tr_home": "Ana Sayfa",
         "de_home": "Startseite",
-        "es_home": "Página de inicio"
+        "es_home": "Página de inicio",
+        "en_NoContent": "Content not found, please try again.",
+        "tr_NoContent": "İçerik bulunamadı, lütfen tekrar deneyiniz."
     }
 }

@@ -56,15 +56,15 @@ namespace Service
         /// <param name="id">İdentifier.</param>
         public async Task<Response<Applications>> Get(Guid id)
         {
-            var response = new Response<Applications>();
-
             var entity = _cache.Get($"applications:{id}").ToObject<Applications>();
             if (entity == null)
             {
                 entity = await _applicationsRepository.Get(id);
-                _cache.Set($"applications:{id}", entity.ToByteArray());
+                if (entity != null)
+                {
+                    _cache.Set($"applications:{id}", entity.ToByteArray());
+                }
             }
-
             return new Response<Applications> { Data = entity };
         }
     }

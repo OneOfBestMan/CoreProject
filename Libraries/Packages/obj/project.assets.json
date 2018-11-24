@@ -7964,11 +7964,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ersinayaz/Projects/WaTracker/Libraries/Packages/Packages.csproj",
+      "projectUniqueName": "/Users/ersinayaz/CoreProject/Libraries/Packages/Packages.csproj",
       "projectName": "Packages",
-      "projectPath": "/Users/ersinayaz/Projects/WaTracker/Libraries/Packages/Packages.csproj",
+      "projectPath": "/Users/ersinayaz/CoreProject/Libraries/Packages/Packages.csproj",
       "packagesPath": "/Users/ersinayaz/.nuget/packages/",
-      "outputPath": "/Users/ersinayaz/Projects/WaTracker/Libraries/Packages/obj",
+      "outputPath": "/Users/ersinayaz/CoreProject/Libraries/Packages/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

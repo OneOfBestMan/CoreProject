@@ -109,6 +109,7 @@ namespace Api
             app.UseCors(builder => builder.WithOrigins("https://*.domain.com").AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 
             app.UseStaticFiles();
+            app.UseMiddleware<ResponseMiddleware>();
             app.UseMvc();
         }
 
